@@ -1,0 +1,75 @@
+<!-- Created: June 17, 2017 11:55 PM
+Author: Jonathan Gryn
+Revisions: Jon (6/17/17) - Added viewport tag 
+           Jon (6/20/17) - Added solution -->
+
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+ <!-- Viewport for Media Queries -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8">
+  <title>Contact | Jon Gryn</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jon Gryn</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/jongryn" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868641_github2.png?raw=true" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/jonathangryn/" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868047_9.png?raw=true" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/7916484/jon-gryn?tab=profile" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868131_overflow.png?raw=true" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Jon Gryn
+    </div>
+  </footer>
+</body>
+
+</html>
