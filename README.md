@@ -1,5 +1,7 @@
 # Basic-Portfolio
 
+Link: https://jongryn.github.io/Responsive-Portfolio/
+
 Week 2 Assignment
 Overview
 
